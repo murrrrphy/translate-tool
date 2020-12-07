@@ -1,0 +1,22 @@
+{
+  "name": "translation-tool",
+  "version": "0.0.1",
+  "main": "index.js",
+  "bin": {
+    "fy":
+  },
+  "scripts": {
+    "start": "ts-node-dev src/main.ts",
+    "tt": "ts-node-dev src/cli.ts"
+  },
+  "author": "murphy <987127314@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^6.2.0",
+    "md5": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/md5": "^2.2.1",
+    "@types/node": "^14.14.10"
+  }
+}
